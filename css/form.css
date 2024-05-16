@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 113, 241);
+}
+#name,#age,#email,#select{
+    width: 25vw;
+    height: 4.5vh;
+    margin-bottom: 1.1rem;
+}
+#mb,#Flagma,#comment{
+    margin-bottom: 1.1rem;
+}
+h1{
+    padding: 1.3rem;
+    text-align: center;
+    color: aliceblue;
+}
+form{
+    
+    width: 28vw;
+    padding: 1rem 1.4rem;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+#sub{
+    all: unset;
+    padding: .5rem 9.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 255);
+    
+}
+#sub:hover{
+    cursor: pointer;
+}
+input[type=checkbox]{
+    margin-bottom: .8rem;
+}
+input[type=radio]{
+    margin-bottom: .7rem;
+}
+.mb{
+    margin-bottom: .3rem;
+}
+textarea{
+    min-height: 10vh;
+    max-height: 10vh;
+    min-width: 25vw;
+    max-width: 25vw;
+    
+}
